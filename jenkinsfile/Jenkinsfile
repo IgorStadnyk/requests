@@ -1,15 +1,15 @@
 pipeline {
     agent any
     stages {
-        stage('Build') {
+        stage('Building ...') {
             steps {
                 sh "python3 http_e.py"
             }
         
         }
-        stage('Test') { 
+        stage('testing ...') { 
             steps {
-                sh 'python3 RestTest.py'
+                sh 'pytest TestRest.py'
             }
         }
    
