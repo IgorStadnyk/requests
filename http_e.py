@@ -1,4 +1,4 @@
-import requests
+import requestss1
 
 # res = requests.get('https://www.nike.com',timeout=5)
 # print(res.status_code)
